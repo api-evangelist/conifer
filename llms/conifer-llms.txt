@@ -1,0 +1,21 @@
+# Conifer
+
+> Conifer (YC S26) builds Sage, a local-first AI runtime and workspace that runs models entirely on your own machine. A from-scratch Rust inference engine (up to 60% faster decode than llama.cpp on Apple Silicon) pairs an editor, integrated terminal, file viewers, and an agent runtime inside a kernel-level sandbox. Conifer routes each request to the cheapest capable model — starting with free on-device inference — cutting AI spend by up to 80%. It ships as the Juniper desktop app for macOS, Windows, and Linux with no accounts, no telemetry, and no cloud dependency. Conifer is proprietary and exposes no public web API.
+
+## About
+- [Website](https://conifer.build): Product homepage and one-click download.
+- [Sage (distribution + release notes)](https://github.com/ConiferKit/sage): Proprietary desktop app; binaries only, no source.
+- [GitHub organization](https://github.com/ConiferKit): ConiferKit — "Own your workspace".
+- [X / Twitter](https://x.com/coniferbuild): Company updates.
+
+## Download
+- [macOS (.dmg)](https://github.com/ConiferKit/sage/releases/latest/download/Sage_universal.dmg): Apple Silicon + Intel, macOS 11+, Metal.
+- [Windows (.exe)](https://github.com/ConiferKit/sage/releases/latest/download/Sage_x64-setup.exe): Windows 10+, Vulkan / CPU.
+- [Linux (.AppImage)](https://github.com/ConiferKit/sage/releases/latest/download/Sage_amd64.AppImage): .deb also on the releases page.
+
+## Releases
+- [Release stream](https://github.com/ConiferKit/sage/releases): GitHub Releases (product name Juniper); current version 2.0.15.
+
+## Notes
+- No public web API, OpenAPI, SDK, or MCP server is published as of 2026-07-18.
+- Contact: contact@conifer.build

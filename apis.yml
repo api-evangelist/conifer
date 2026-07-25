@@ -1,7 +1,16 @@
 aid: conifer
 name: Conifer
-description: Conifer is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Conifer (YC S26) builds Sage, a local-first AI runtime and workspace that runs
+  models entirely on your own machine. Its inference engine is written from scratch in
+  Rust, reaching up to 60% faster decode than llama.cpp on Apple Silicon, and pairs an
+  editor, integrated terminal, file viewers, and an agent runtime inside a kernel-level
+  sandbox so tool calls only touch what you allow. Conifer routes each request to the
+  cheapest capable model, starting with free on-device inference and falling back to
+  cloud only when needed, cutting AI spend by up to 80%. The desktop app ships as
+  Juniper for macOS, Windows, and Linux with no accounts, no telemetry, and no cloud
+  dependency. Conifer is proprietary and distributed as compiled binaries; it currently
+  exposes no public web API.
 url: https://raw.githubusercontent.com/api-evangelist/conifer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,59 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: open
+  trial: false
+  try_now: false
+  public: true
+  label: Open access
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://raw.githubusercontent.com/ConiferKit/sage/main/assets/sage-banner-light.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Local AI
+- Inference
+- Large Language Models
+- Developer Tools
+- Model Routing
+- Desktop Application
+- Privacy
+- Rust
 apis: []
+common:
+- type: DomainSecurity
+  url: security/conifer-domain-security.yml
+- type: Website
+  url: https://conifer.build
+- type: GitHubOrganization
+  url: https://github.com/ConiferKit
+- type: SourceCode
+  url: https://github.com/ConiferKit/sage
+- type: Download
+  url: https://github.com/ConiferKit/sage/releases/latest
+- type: X
+  url: https://x.com/coniferbuild
+- type: Packages
+  url: packages/conifer-packages.yml
+- type: ChangeLog
+  url: changelog/conifer-changelog.yml
+- type: LLMsTxt
+  url: llms/conifer-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

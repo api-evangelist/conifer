@@ -1,0 +1,36 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/ConiferKit/sage/releases
+notes: >-
+  Conifer publishes its release stream as GitHub Releases on the Sage distribution
+  repo (product name Juniper). Per-release notes are currently boilerplate ("local
+  AI on your device; installed apps update automatically") with no itemized
+  highlights, so entries capture version + date only. Recent window shown.
+scheme: semver
+current_version: 2.0.15
+release_url: https://github.com/ConiferKit/sage/releases
+entries:
+- version: 2.0.15
+  date: '2026-07-16'
+  tag: desktop-v2.0.15
+- version: 2.0.14
+  date: '2026-07-16'
+  tag: desktop-v2.0.14
+- version: 2.0.11
+  date: '2026-07-15'
+  tag: desktop-v2.0.11
+- version: 2.0.10
+  date: '2026-07-14'
+  tag: desktop-v2.0.10
+- version: 2.0.9
+  date: '2026-07-14'
+  tag: desktop-v2.0.9
+- version: 2.0.8
+  date: '2026-07-14'
+  tag: desktop-v2.0.8
+- version: 2.0.7
+  date: '2026-07-13'
+  tag: desktop-v2.0.7
+- version: 2.0.6
+  date: '2026-07-10'
+  tag: desktop-v2.0.6

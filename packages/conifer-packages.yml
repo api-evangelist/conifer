@@ -1,0 +1,34 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/ConiferKit/sage/releases/latest
+notes: >-
+  Conifer ships its product as the Sage / Juniper desktop application, distributed
+  as compiled first-party binaries via GitHub Releases. The high-performance
+  inference engine and agent runtime are proprietary (no source published). There
+  are no first-party client SDKs or client libraries on public package registries
+  (npm/PyPI/crates.io searched, none first-party), so no SDKs pointer is emitted.
+packages:
+- language: n/a
+  registry: github-releases
+  kind: desktop-application
+  platform: macOS
+  name: Sage (Juniper) universal .dmg
+  url: https://github.com/ConiferKit/sage/releases/latest/download/Sage_universal.dmg
+  install: Download and open the .dmg (Apple Silicon + Intel, macOS 11+, Metal)
+  official: true
+- language: n/a
+  registry: github-releases
+  kind: desktop-application
+  platform: Windows
+  name: Sage (Juniper) x86-64 setup .exe
+  url: https://github.com/ConiferKit/sage/releases/latest/download/Sage_x64-setup.exe
+  install: Download and run the .exe (Windows 10+, Vulkan / CPU)
+  official: true
+- language: n/a
+  registry: github-releases
+  kind: desktop-application
+  platform: Linux
+  name: Sage (Juniper) x86-64 .AppImage
+  url: https://github.com/ConiferKit/sage/releases/latest/download/Sage_amd64.AppImage
+  install: chmod +x the .AppImage and run (.deb also on the releases page)
+  official: true
