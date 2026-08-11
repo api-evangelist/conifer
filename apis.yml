@@ -46,6 +46,12 @@ tags:
 - Rust
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/ConiferKit/sage/issues
+- type: SecurityPolicy
+  url: https://github.com/ConiferKit/sage/blob/main/SECURITY.md
+- type: ContributionGuide
+  url: https://github.com/ConiferKit/sage/blob/main/CONTRIBUTING.md
 - type: DomainSecurity
   url: security/conifer-domain-security.yml
 - type: Website
