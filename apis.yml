@@ -71,6 +71,10 @@ tags_raw:
 - Rust
 apis: []
 common:
+- type: Pricing
+  url: https://www.conifer.build/models/
+- type: Plans
+  url: plans/conifer-plans-pricing.yml
 - type: IssueTracker
   url: https://github.com/ConiferKit/sage/issues
 - type: SecurityPolicy
