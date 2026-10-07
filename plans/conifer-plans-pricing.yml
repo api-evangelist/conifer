@@ -1,0 +1,74 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.conifer.build/models/
+sources:
+- https://www.conifer.build/models/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Model catalog page listing 197 served models with Conifer's per-million-token input/output prices
+  (USD), plus blended price-per-Mtok, intelligence, speed and context figures; struck figures mark the
+  lab's list price. Also shows illustrative cost-per-hour figures (e.g. '$19/hour' for Claude Opus 5.5
+  max) and a local catalog of 25 models installable via 'conifer models pull' at no extra cost ('Your
+  own hardware and your own keys cost nothing extra'). No subscription tiers or rate limits stated; only
+  a sample of the many per-model prices is captured in plans.
+plan_count: 8
+currency: USD
+plans:
+- name: Claude Opus 5.5 (max) — blended
+  price_text: $8 / Mtok
+  price: 8
+  currency: USD
+  period: per-use
+  unit: per million tokens (blended)
+- name: Claude Opus 5.5 (max) — input
+  price_text: $4
+  price: 4
+  currency: USD
+  period: per-use
+  unit: per million input tokens
+- name: Claude Opus 5.5 (max) — output
+  price_text: $20
+  price: 20
+  currency: USD
+  period: per-use
+  unit: per million output tokens
+- name: GLM-5.3-Flash — input
+  price_text: $0.15
+  price: 0.15
+  currency: USD
+  period: per-use
+  unit: per million input tokens
+- name: GLM-5.3-Flash — output
+  price_text: $0.50
+  price: 0.5
+  currency: USD
+  period: per-use
+  unit: per million output tokens
+- name: Llama 3.1 8B — input
+  price_text: $0.02
+  price: 0.02
+  currency: USD
+  period: per-use
+  unit: per million input tokens
+- name: Jev 1.13 (decisions) — input
+  price_text: $0.042
+  price: 0.042
+  currency: USD
+  period: per-use
+  unit: per million input tokens
+- name: Poolside Laguna S 2.1
+  price_text: $0.00
+  price: 0
+  currency: USD
+  period: per-use
+  unit: per million tokens (in and out)
