@@ -72,3 +72,76 @@ plans:
   currency: USD
   period: per-use
   unit: per million tokens (in and out)
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  - metered
+  units:
+  - token
+  plans:
+  - name: Claude Opus 5.5 (max) — blended
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - token
+    periods:
+    - other
+  - name: Claude Opus 5.5 (max) — input
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - token
+    periods:
+    - other
+  - name: Claude Opus 5.5 (max) — output
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - token
+    periods:
+    - other
+  - name: GLM-5.3-Flash — input
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - token
+    periods:
+    - other
+  - name: GLM-5.3-Flash — output
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - token
+    periods:
+    - other
+  - name: Llama 3.1 8B — input
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - token
+    periods:
+    - other
+  - name: Jev 1.13 (decisions) — input
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - token
+    periods:
+    - other
+  - name: Poolside Laguna S 2.1
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - token
+    periods:
+    - other
